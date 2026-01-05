@@ -78,7 +78,7 @@ venv\Scripts\activate         # Windows
 
 pip install -r requirements.txt
 
-
+```
 
 ## Data Sources and Downloads
 
@@ -159,6 +159,5 @@ After running the full pipeline, the following files will be generated in the `o
 - Absolute paths (`BASE_DIR`) must be updated before running the code.
 - Satellite image downloads may be subject to API usage limits.
 - This project is intended for academic and reproducibility purposes.
-
 
 
