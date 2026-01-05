@@ -2,46 +2,48 @@
 This repository provides code and notebooks to reproduce a property price prediction pipeline using tabular data and satellite imagery.
 
 ## Repository Structure
+
+```
 PROPERTY_VALUATION/
 ├── data/
-│ ├── images/
-│ │ ├── zoom16/
-│ │ │ ├── train/
-│ │ │ │ └── <property_id>.png
-│ │ │ └── test/
-│ │ │ └── <property_id>.png
-│ │ │
-│ │ └── zoom18/
-│ │ ├── train/
-│ │ │ └── <property_id>.png
-│ │ └── test/
-│ │ └── <property_id>.png
-│ │
-│ ├── processed/
-│ │ ├── train_processed.csv
-│ │ ├── val_processed.csv
-│ │ ├── test_processed.csv
-│ │ ├── train_with_xgb.csv
-│ │ ├── val_with_xgb.csv
-│ │ └── test_with_xgb.csv
-│ │
-│ └── raw/
-│ ├── train.xlsx
-│ ├── test.xlsx
-│ └── images.zip
+│   ├── images/
+│   │   ├── zoom16/
+│   │   │   ├── train/
+│   │   │   │   └── <property_id>.png
+│   │   │   └── test/
+│   │   │       └── <property_id>.png
+│   │   │
+│   │   └── zoom18/
+│   │       ├── train/
+│   │       │   └── <property_id>.png
+│   │       └── test/
+│   │           └── <property_id>.png
+│   │
+│   ├── processed/
+│   │   ├── train_processed.csv
+│   │   ├── val_processed.csv
+│   │   ├── test_processed.csv
+│   │   ├── train_with_xgb.csv
+│   │   ├── val_with_xgb.csv
+│   │   └── test_with_xgb.csv
+│   │
+│   └── raw/
+│       ├── train.xlsx
+│       ├── test.xlsx
+│       └── images.zip
 │
 ├── outputs/
-│ ├── xgboost_model.pkl
-│ ├── naive_fusion.pth
-│ ├── adaptive_fusion_final.pth
-│ ├── learned_model.pth
-│ ├── metrics.json
-│ └── 24114066_final.csv
+│   ├── xgboost_model.pkl
+│   ├── naive_fusion.pth
+│   ├── adaptive_fusion_final.pth
+│   ├── learned_model.pth
+│   ├── metrics.json
+│   └── 24114066_final.csv
 │
 ├── src/
-│ ├── dataset.py
-│ ├── models.py
-│ └── pycache/
+│   ├── dataset.py
+│   ├── models.py
+│   └── __pycache__/
 │
 ├── visualisation/
 │
@@ -50,16 +52,18 @@ PROPERTY_VALUATION/
 ├── model_training.ipynb
 ├── predict.ipynb
 ├── requirements.txt
-└── readme.md
+└── README.md
+```
 
 ## Image Folder Creation
 
 Before running any files, ensure that the following image directories exist:
+```
 data/images/zoom16/train/
 data/images/zoom16/test/
 data/images/zoom18/train/
 data/images/zoom18/test/
-
+```
 ## Environment Setup
 
 Python 3.9 or later is recommended.
