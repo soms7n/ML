@@ -121,10 +121,11 @@ After cloning the repository, you must update the `BASE_DIR` variable in the fol
 - `notebooks/grad_cam.ipynb`
 - `notebooks/results_visualisation.ipynb`
 
-In each file, locate the line(it is commented in the given files):
+In each file, locate the line(it is commented in the file):
 
 BASE_DIR = Path("/Users/your_username/path/to/PROPERTY_VALUATION")
 
+Do change this path as per your local setup.
 
 ## Running the Code
 
