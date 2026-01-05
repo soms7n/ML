@@ -111,7 +111,7 @@ preprocess_tabular.ipynb
 ## Path Configuration (Required)
 
 This project uses absolute local paths for data and output directories.  
-After cloning the repository, you must update the `BASE_DIR` variable in the following files:
+After cloning the repository, Update the `BASE_DIR` variable in the following files:
 
 - `model_training.ipynb`
 - `predict.ipynb`
@@ -151,13 +151,11 @@ After running the full pipeline, the following files will be generated in the `o
 - `metrics.json` – Validation RMSE and R² scores  
 - `24114066_final.csv` – Final predicted prices for the test set  
 
----
 
 ## Notes
 
 - All reported RMSE and R² values correspond to **validation set performance**, not training data.
 - Absolute paths (`BASE_DIR`) must be updated before running the code.
 - Satellite image downloads may be subject to API usage limits.
-- This project is intended for academic and reproducibility purposes.
 
 
